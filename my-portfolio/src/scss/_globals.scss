@@ -1,0 +1,67 @@
+:root {
+    --navy-shadow: #0493e0;
+    --background-color: #04a3ec;
+    --lightest-navy: #ffffff;
+    --light-navy: #ffffff;
+    --dark-slate: #ffffff;
+    --slate: #ffffff;
+    --light-slate: #ffffff;
+    --lightest-slate: #daddde;
+    --theme-color: #ffffff;
+  }
+  
+  ::-moz-selection {
+    color: white;
+    background: var(--theme-color);
+  }
+  
+  ::selection {
+    color: white;
+    background: var(--theme-color);
+  }
+  
+  html,
+  body {
+    scroll-behavior: smooth !important;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    counter-reset: title;
+  }
+  
+  main {
+    transition: 0.3s ease-in-out;
+  }
+  
+  .blur {
+    filter: blur(10px);
+    pointer-events: none;
+    user-select: none;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: var(--dark-slate) var(--background-color);
+  }
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--background-color);
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--dark-slate);
+    border: 3px solid var(--background-color);
+    border-radius: 10px;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@800&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@800&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Fira+Sans:wght@800&family=Raleway:wght@100&display=swap');
